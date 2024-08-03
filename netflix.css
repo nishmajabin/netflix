@@ -1,0 +1,601 @@
+*{
+    border:0;
+    font-family: 'Poppins' sans-serif;
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.main-body{
+    height: 18.7cm;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 151%) 0, rgb(0 0 0 / 50%) 60%, rgb(0 0 0 / 89%) 100%), url(Netflix/NetflixBackgroundImage.jpg);
+}
+
+.header {
+    width: 1290px;
+    height: 2.12cm;
+    padding-top: 5px;
+    padding-left: 4cm;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo{
+    width: 190px;
+    height: 175px;
+    float: left;
+}
+.login {
+    width: 500px;
+    height: 2cm;
+    margin-left: 60%;
+    display: flex;
+    
+   
+}
+.language {
+    position: relative;
+    top: 22px;
+    left: 125px;
+    width: 120px;
+    height: 32px;
+    background: transparent;  
+    color: rgb(255, 255, 255);
+    
+    border-radius: 4px;
+    border: 1px solid rgb(115, 112, 112);
+}
+#icon {
+  position: relative;
+  right: 10px;
+  left: 8px;
+  top: 7px;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  font-weight: 400;
+  
+}
+
+#lang {
+    position: relative;
+    bottom: 18px;
+    right: 1px;
+    margin-left: 30px;
+    padding-left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+}
+#arrowicon {
+    position: relative;
+    top: 2.5px;
+    left: 3.5px;
+    width: 14px;
+    height: 12px;
+}
+
+.sign-in {
+    position: relative;
+    top: 22px;
+    left: 150px;
+    width: 75px;
+    height: 32px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+.sign-in:hover {
+    background: rgb(198 26 26);
+}
+.center {
+    width: 100%;
+    height: 18cm;
+    
+}
+.center .first-heading {
+    position: relative;
+    top: 194px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    }
+ .para1 {
+    position: relative;
+    top: 212px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.para2 {
+    position: relative;
+    top: 226px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+#email{
+    position: relative;
+    top: 246px;
+    left: 432px;
+    background: #0f0b0ba8;
+    width: 349px;
+    height: 52px;
+    border-radius: 4px;
+    border: 0 solid #767171d9;
+    border-width: 1px;
+    float: left;
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 550;
+    font-stretch: wider;
+    color: rgb(178, 173, 173);
+}
+.startbtn {
+    position: relative;
+    top: 247px;
+    left: 442px;
+    width: 213px;
+    height: 53px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+.startbtn:hover {
+    background: rgb(198 26 26);
+}
+.startarrow {
+    position: relative;
+    left: 7px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+}
+#first-hr{
+    position: relative;
+    bottom: 9px;
+    height: 14.7px;
+    width: 100%;
+    background-color: #242323;
+    border: none;
+}
+    
+.second-body {
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    height: 559px;
+    background-color: black;
+}
+.second-body .left-section {
+    width: 50%;
+    height: 528px;
+    float: left;
+}
+.second-body .heading {
+    position: relative;
+    top: 180px;
+    left: 169px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+}
+.second-body .para1 {
+    position: relative;
+    top: 196px;
+    left: 170px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+}
+#icon2{
+    position: relative;
+    top: 75px;
+    width: 547px;
+    height: 412px;
+}
+#second-hr{
+    position: relative;
+    bottom: 15px;
+    height: 8.7px;
+    width: 100%;
+    background-color: #242323;
+    border: none;
+}
+.third-body{
+    position: relative;
+    bottom:15px;
+    width: 100%;
+    height: 532px;
+    background-color: black;
+}
+.third-body .left-section {
+    width: 50%;
+    height: 532px;
+    float: left;
+}
+#icon3{
+    position: relative;
+    top: 104px;
+    width: 330px;
+    height: 392px;
+    left: 269px;
+}
+.third-body .heading {
+    position: relative;
+    top: 153px;
+    left: -5px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+}
+.third-body .para1 {
+    position: relative;
+    top: 164px;
+    left: -5px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+}
+#third-hr{
+    position: relative;
+    bottom: 15px;
+    height: 8.7px;
+    width: 100%;
+    background-color: #242323;
+    border: none;
+}
+.fourth-body {
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    height: 559px;
+    background-color: black;
+}
+.fourth-body .left-section {
+    width: 50%;
+    height: 528px;
+    float: left;
+}
+.fourth-body .heading {
+    position: relative;
+    top: 180px;
+    left: 169px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+}
+.fourth-body .para1 {
+    position: relative;
+    top: 196px;
+    left: 170px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+}
+#icon4{
+    position: relative;
+    top: 75px;
+    left: 35px;
+    width: 485px;
+    height: 360px;
+}
+#fourth-hr{
+    position: relative;
+    bottom: 15px;
+    height: 8.7px;
+    width: 100%;
+    background-color: #242323;
+    border: none;
+}
+.fifth-body{
+    position: relative;
+    bottom:15px;
+    width: 100%;
+    height: 532px;
+    background-color: black;
+}
+.fifth-body .left-section {
+    width: 50%;
+    height: 532px;
+    float: left;
+}
+#icon5{
+    position: relative;
+    top: 64px;
+    width: 540px;
+    height: 401px;
+    left: 175px;
+}
+.fifth-body .heading {
+    position: relative;
+    top: 166px;
+    left: 8px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-align: left;
+}
+.fifth-body .para1 {
+    position: relative;
+    top: 178px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+}
+#fifth-hr{
+    position: relative;
+    bottom: 15px;
+    height: 8.7px;
+    width: 100%;
+    background-color: #242323;
+    border: none;
+}
+.last-body {
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    height: 915px;
+    background-color: black;
+}
+.last-body .heading{
+    position: relative;
+    top: 63px;
+    left: 8px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    
+}
+.buttons {
+    position: relative;
+    top: 86px;
+    left: 11%;
+    right: 10%;
+    width: 1108px;
+    height: 82px;
+    text-align: left;
+    margin: 4px;
+    background: rgb(116 114 112 / 40%);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding-bottom: 36px;
+    padding-left: 24px;
+    border: 0;
+    align-content: space-between;
+    cursor: pointer;
+}
+.buttons:hover{
+    background: rgba(101, 99, 97, 0.636);
+}
+#plus1{
+    position: relative;
+    top: 4px;
+    left: 855px;
+    font-size: 55px;
+}
+#plus2{
+    position: relative;
+    top: 3px;
+    left: 714px;
+    font-size: 55px;
+}
+#plus3{
+    position: relative;
+    top: 4px;
+    left: 812px;
+    font-size: 55px;
+}
+#plus4{
+    position: relative;
+    top: 4px;
+    left: 841px;
+    font-size: 55px;
+}
+#plus5{
+    position: relative;
+    top: 4px;
+    left: 723px;
+    font-size: 55px;
+}
+#plus6{
+    position: relative;
+    top: 4px;
+    left: 777px;
+    font-size: 55px;
+}
+.last-body-para {
+    position: relative;
+    top: 127px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+}
+#email2 {
+    position: relative;
+    top: 147px;
+    left: 432px;
+    background: #0f0b0ba8;
+    width: 349px;
+    height: 52px;
+    border-radius: 4px;
+    border: 0 solid #767171d9;
+    border-width: 1px;
+    float: left;
+}
+.last-startbtn {
+    position: relative;
+    top: 148px;
+    left: 442px;
+    width: 213px;
+    height: 53px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+}
+.last-startbtn:hover {
+    background: rgb(198 26 26);
+}
+.last-startarrow {
+    position: relative;
+    left: 7px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+}
+#last-hr {
+    position: relative;
+    bottom: 15px;
+    height: 8.7px;
+    width: 100%;
+    background-color: #242323;
+    border: none;
+}
+.footer-body {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-bottom: -28px;
+    margin-top: -16px;
+}
+.header-f {
+    width: 100%;
+    height: 2cm;
+    
+}
+.div1 {
+    width: 28.7%;
+    height: 325px;
+    float: left;
+}
+.first {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    padding-top: 59px;
+    padding-left: 164px;
+    cursor: pointer;
+}
+
+.line {
+    position: relative;
+    top: 19px;
+    left: 164px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 2.5;
+    cursor: pointer;
+}
+#icon-2 {
+    position: relative;
+    right: 10px;
+    left: 8px;
+    top: 7px;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+    font-weight: 400;
+    
+  }
+#lang2 {
+    position: relative;
+    bottom: 18px;
+    right: 1px;
+    margin-left: 30px;
+    padding-left: 2px;
+    font-size: 17px;
+    font-weight: 400;
+    align-items: center;
+}
+#arrowicon2 {
+    position: relative;
+    top: 2.5px;
+    left: 3.5px;
+    width: 14px;
+    height: 12px;
+}
+ .nav{
+    position: relative;
+    top: 36px;
+    left: 164px;
+    width: 120px;
+    height: 32px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: 1px solid rgb(115, 112, 112);
+}
+.last-line {
+    position: relative;
+    top: 8px;
+    left: -1px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 2.5;
+    float: left;
+}
+.div2 {
+    height: 325px;
+    float: left;
+}
+.line2 {
+    position: relative;
+    top: 19px;
+    left: 4px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 2.5;
+    cursor: pointer;
+}
+.div3 {
+    height: 325px;
+    float: left;
+}
+.line3{
+    position: relative;
+    top: 19px;
+    left: 170px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 2.5;
+    cursor: pointer;
+}
+.line4 {
+    position: relative;
+    top: 19px;
+    left: 322px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 2.5;
+    cursor: pointer;
+}
